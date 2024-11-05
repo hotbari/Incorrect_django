@@ -17,7 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-urlpatterns = [
+urlpatterns = [     # URL 패턴 목록
+    # /admin/ 경로에 어드민 사이트 연결
     path('admin/', admin.site.urls),
+    # /api/ 경로에 users 앱의 urls를 포함해 연결
     path('api/', include('users.urls')),
 ]
