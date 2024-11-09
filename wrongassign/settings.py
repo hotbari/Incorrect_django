@@ -123,3 +123,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+    # 프로젝트 설정 파일, 처음 프로젝트 생성하면 기본 사항이 담겨있음.

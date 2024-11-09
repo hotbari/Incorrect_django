@@ -20,3 +20,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+#프로젝트의 설정 파일 (wrongassign.settings in this case)을 로딩하여 Django 환경을 설정
+#django-admin 명령과 함께 사용되어 데이터베이스 마이그레이션, 서버 실행, 테스트 수행
+#Django 설정 오류가 발생시 에러 메시지 출력
